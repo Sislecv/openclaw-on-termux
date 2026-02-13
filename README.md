@@ -4,7 +4,7 @@
 1.安装**termux**
 
 2.打开**termux**并运行
-`curl -fSSL -o https://raw.githubusercontent.com/Sislecv/openclaw-on-termux/refs/heads/main/install.sh | bash`
+`curl -fSSL https://raw.githubusercontent.com/Sislecv/openclaw-on-termux/refs/heads/main/install.sh | bash`
 
 3.结束后，**运行**（重要）
 `termux-chroot`
