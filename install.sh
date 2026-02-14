@@ -25,6 +25,6 @@ if [ -f "firstrun.sh" ]; then
     echo "bash firstrun.sh"
     echo "----------------------------------------------------"
 else
-    echo "错误：firstrun.sh 下载失败，请检查网络连接。"
+    echo "错误：firstrun.sh 下载失败，请检查网络连接或手动执行 curl -fSSLo firstrun.sh https://raw.githubusercontent.com/Sislecv/openclaw-on-termux/refs/heads/main/firstrun.sh"
     exit 1
 fi
