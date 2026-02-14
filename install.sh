@@ -9,7 +9,7 @@ echo "基础依赖安装完成..."
 
 # 2. 安装 openclaw
 # 使用 --location 确保 npm 路径正确
-npm install -g openclaw@latest --registry=https://registry.npmmirror.com
+npm install -g openclaw@latest
 
 # 3. 下载 firstrun.sh (注意参数大小写 -fSSLo)
 echo "正在从 CDN 下载启动脚本..."
