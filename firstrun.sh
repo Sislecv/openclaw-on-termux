@@ -23,8 +23,8 @@ nohup openclaw dashboard --no-open > dashboard.log 2>&1 &
 sleep 2
 
 echo "----------------------------------------------------"
-echo "请复制上面的链接并完成 Token 绑定。"
-echo "正在启动 Gateway 实时日志..."
+echo "请复制以上带有token的链接。"
+echo "正在启动 Gateway"
 echo "----------------------------------------------------"
 
 # 4. 启动网关（放在最后，直接在前台显示 verbose 日志）
