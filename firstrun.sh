@@ -40,7 +40,7 @@ read -p "✅ 复制完成后，请按 [Enter] 回车键：关闭面板并下载�
 kill $DASH_PID > /dev/null 2>&1
 echo "------------------------------------------------"
 echo "📂 正在下载日常启动脚本 bot.sh..."
-if curl -fSSLo bot.sh https://cdn.jsdelivr.net/gh/Sislecv/openclaw-on-termux@refs/heads/main/bot.sh; then
+if curl -fSSLo bot.sh https://raw.githubusercontent.com/Sislecv/openclaw-on-termux/refs/heads/main/bot.sh; then
     chmod +x bot.sh
     echo "✅ bot.sh 下载并授权成功。"
 else
