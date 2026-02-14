@@ -13,7 +13,7 @@ npm install -g openclaw@latest --registry=https://registry.npmmirror.com
 
 # 3. 下载 firstrun.sh (注意参数大小写 -fSSLo)
 echo "正在从 CDN 下载启动脚本..."
-curl -fSSLo firstrun.sh https://cdn.jsdelivr.net/gh/Sislecv/openclaw-on-termux@refs/heads/main/firstrun.sh
+curl -fSSLo firstrun.sh https://raw.githubusercontent.com/Sislecv/openclaw-on-termux/refs/heads/main/firstrun.sh
 
 # 4. 验证下载是否成功
 if [ -f "firstrun.sh" ]; then
