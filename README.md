@@ -6,7 +6,7 @@
 ### 2. 一键安装
 打开 Termux，复制并运行以下命令：
 ```bash
-curl -fSSL https://cdn.jsdelivr.net/gh/Sislecv/openclaw-on-termux@refs/heads/main/install.sh | bash
+curl -fSSL https://raw.githubusercontent.com/Sislecv/openclaw-on-termux/refs/heads/main/install.sh | bash
 ```
 3. 初始化环境
 安装完成后，必须进入 chroot 环境（必做步骤）：
